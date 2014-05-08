@@ -5,6 +5,7 @@
 @import "compass/css3/box-shadow"
 @import "compass/css3/text-shadow"
 @import "compass/css3/images"
+@import "compass/css3/opacity"
 
 @import "sassy-buttons/sassy-button-gradients"
 @import "sassy-buttons/sassy-button-styles"
@@ -23,7 +24,7 @@ $sb-base-color: rgba(11, 153, 194, 1) !default
 $sb-second-color: false !default
 
 // Border radius of button.
-$sb-border-radius: 4px !default
+$sb-border-radius: 5px !default
 
 // Padding that gives button structure.
 $sb-padding: 0.5em 1.5em !default
@@ -43,8 +44,8 @@ $sb-gradient-style: "simple" !default
 // Automatically generate pseudo state styles.
 $sb-pseudo-states: true !default
 
-// Filter gradient for IE
-$sb-ie-support: false !default
+// Add gradient png for IE 7+
+$sb-ie-support: true !default
 
 
 // Mixing that gets included when calling the sassy-button-structure if you need any
